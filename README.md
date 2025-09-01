@@ -5,7 +5,7 @@ Small, practical RAG setup:
 - Chunk with sensible paragraph-first splitting
 - Embed with `all-MiniLM-L6-v2`
 - Store in FAISS
-- Answer with OpenAI (`gpt-4o-mini` by default), using retrieved context only
+- Answer with OpenAI, using retrieved context only
 
 ## Setup
 
