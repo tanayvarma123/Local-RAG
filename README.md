@@ -24,8 +24,9 @@ OPENAI_API_KEY=sk-proj-xxxxxxxxxxxxxxxxxxxx
 python build_db.py
 
 # 5) Querying the index:
-python query.py "When di world war 2 begin?"
- Sample Output:
+python query.py "When did world war 2 begin?"
+
+Sample Output:
 ─────────────────────────────────────── RAG QUERY ────────────────────────────────────────
 Query Time: 2025-09-01 20:04:21 | Model: gpt-4o-mini | Embeddings: sentence-
 transformers/all-MiniLM-L6-v2 | k=4
